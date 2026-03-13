@@ -1,0 +1,21 @@
+{
+  "name": "banana",
+  "version": "1.0.0",
+  "description": "A experimental project that stores files inside podcast episodes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CT02k/banana.git"
+  },
+  "keywords": [],
+  "author": "CT02k",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CT02k/banana/issues"
+  },
+  "homepage": "https://github.com/CT02k/banana#readme"
+}
