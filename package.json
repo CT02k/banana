@@ -17,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/CT02k/banana/issues"
   },
-  "homepage": "https://github.com/CT02k/banana#readme"
+  "homepage": "https://github.com/CT02k/banana#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3"
+  }
 }
