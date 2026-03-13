@@ -13,7 +13,7 @@
   "keywords": [],
   "author": "CT02k",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/CT02k/banana/issues"
   },
