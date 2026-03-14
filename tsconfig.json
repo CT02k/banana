@@ -8,6 +8,7 @@
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "node20",
+    "moduleResolution": "nodenext",
     "target": "esnext",
     "types": ["node", "express"],
     // For nodejs:
