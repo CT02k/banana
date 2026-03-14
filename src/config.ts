@@ -1,3 +1,5 @@
+import "dotenv/config";
+
 const required = (variable: string): string => {
     if (!process.env[variable]) throw new Error(`${variable} is required, fill the .env`);
     return process.env[variable]
