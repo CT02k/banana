@@ -5,7 +5,7 @@ const required = (variable: string): string => {
 
 const env = {
   PORT: process.env.PORT ?? "3000",
-};
+} as const;
 
 export default env;
 
