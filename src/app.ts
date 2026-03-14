@@ -1,4 +1,5 @@
 import express from "express";
+import { errorHandler } from "./middlewares/errorHandler";
 
 const app = express();
 
@@ -12,5 +13,7 @@ app.get("/health", async (_req, res) => {
         ping: `${new Date().getMilliseconds() - receivedDate}ms`
     });    
 });
+
+app.use(errorHandler);
 
 export default app;
